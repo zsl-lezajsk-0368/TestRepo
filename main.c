@@ -7,6 +7,11 @@ int main()
 {
     printf("Hello, my name is Ashley \n");
     //Do nothing right now
+
+    //This chunk of code added through GitHub edit.
+    motor(0,90);
+    motor(3,89);
+    msleep(3000);
    
     return 0;
 }
